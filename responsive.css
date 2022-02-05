@@ -110,7 +110,11 @@
     .banner{
         padding-top: 130px;
     }
-
+    
+    .counter{
+    background: url(img/counter\ bg.jpg) no-repeat left;
+    }
+    
     .footer-header .header-top {
         display: block !important;
     }
@@ -162,11 +166,4 @@
     .card-four {
         background: #212121;
     }
-
-
-
-
-
-
-
 }
