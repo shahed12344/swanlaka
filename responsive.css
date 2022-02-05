@@ -1,0 +1,172 @@
+/*==========// 991 px // ==========*/
+
+@media (max-width:991px) {
+
+    .arrow-img {
+        display: none;
+    }
+    .banner form {
+        margin-top: 50px;
+    }
+    .title p {
+        width: 100%;
+    }
+    .main-services-box {
+        margin-bottom: 50px;
+    }
+    .services-sec-col {
+        padding-left: 12px;
+    }
+}
+
+/*==========// 768 px // ==========*/
+
+@media (max-width:768px) {
+
+    h1 {
+        font-size: 50px;
+    }
+    .padding {
+        padding: 70px 0px;
+    }
+    .top-btn {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .header{
+        background-color: transparent;
+        padding-top: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .header-top {
+        position: relative;
+        background-color: var(--darkBG);
+        padding: 8px;
+        border-radius: 0px 0px 10px 10px;
+        z-index: 1;
+    }
+    .header-contact {
+        display: none !important;
+    }
+    .header-mid {
+        background-color: var(--darkBG);
+        display: block;
+        text-align: center;
+        border-radius: 10px;
+        position: relative;
+        top: 0;
+        margin-top: -250px;
+    }
+    .header-mid .menu ul {
+        display: block;
+    }
+    .header-mid .menu ul li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .header-mid .menu ul li a {
+        color: var(--lightBG);
+    }
+    .header-btn {
+        text-align: center;
+    }
+    .header-btn .btn:hover {
+        background-color: #262626;
+    }
+
+    .header .container-md{
+        position: relative;
+    }
+    .menu-chk {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 28px;
+        transform: scale(1.5);
+        border: none;
+        z-index: 2;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .menu-bars{
+        display: block;
+        position: absolute;
+        top: 17px;
+        right: 25px;
+        font-size: 22px;
+        color: var(--primary);
+        z-index: 1;
+    }
+    .menu-chk:checked ~ .header-mid{
+        background-color: var(--darkBG);
+        top: 260px;
+        transition: .5s ease-in-out;
+    }
+
+    .banner{
+        padding-top: 130px;
+    }
+
+    .footer-header .header-top {
+        display: block !important;
+    }
+    .footer-header .logo {
+        text-align: center;
+    }
+    footer{
+        display: block;
+    }
+    footer p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer ul{
+        justify-content: center;
+        align-items: flex-end;
+    }
+    footer ul li {
+        margin: 0px 15px;
+        margin-left: 15px;
+    }
+}
+
+/*==========// 575 px // ==========*/
+
+@media (max-width:575px) {
+
+    .about .card {
+        margin-top: 50px;
+    }
+    .counter h1 {
+        margin-top: 20px;
+    }
+      .counter p {
+        margin-bottom: 20px;
+    }
+    .services-box {
+        display: block;
+    }
+    .card-one {
+        background: rgba(33, 33, 33, .9);
+    }
+    .card-two {
+        background: #212121;
+    }
+    .card-three {
+        background: rgba(33, 33, 33, .9);
+    }
+    .card-four {
+        background: #212121;
+    }
+
+
+
+
+
+
+
+}
